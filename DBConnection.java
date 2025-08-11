@@ -4,8 +4,8 @@ import java.sql.SQLException;
 
 public class DBConnection {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/task_manager";
-    private static final String DB_USER = "root"; // change to your MySQL username
-    private static final String DB_PASS = "password"; // change to your MySQL password
+    private static final String DB_USER = "root"; //  MySQL username
+    private static final String DB_PASS = "password"; //  MySQL password
 
     static {
         try {
