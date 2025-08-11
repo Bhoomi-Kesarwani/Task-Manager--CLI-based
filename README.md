@@ -1,35 +1,35 @@
 # Task Manager CLI App (Java + MySQL)
-A simple *console-based task management system* built with *Java* and *MySQL*, featuring user authentication, CRUD operations, and task prioritization.  
+A  console-based task management system built with *Java* and *MySQL*, featuring user authentication, CRUD operations, and task prioritization.  
 
 ## Features
-- *User Authentication*: Sign up & login.
-- *Task Management*: Add, update, delete, and mark tasks as completed.
-- *Category & Priority*: Assign tasks categories and priorities (High, Medium, Low).
-- *Search/Filter*: Search tasks by category or priority.
-- *Persistent Storage*: Data stored in MySQL via JDBC.
+- User Authentication: Sign up & login.
+- Task Management: Add, update, delete, and mark tasks as completed.
+- Category & Priority: Assign tasks categories and priorities (High, Medium, Low).
+- Search/Filter: Search tasks by category or priority.
+- Persistent Storage: Data stored in MySQL via JDBC.
 
 ## ⚙ Setup & Installation
 
-1️⃣ Clone the Repository
+1 Clone the Repository
 git clone https://github.com/Bhoomi-Kesarwani/Task-Manager--CLI-based 
 
 
-2️⃣ Create MySQL Database
+2 Create MySQL Database
 Open MySQL Workbench and run:
 CREATE DATABASE task_manager;
 USE task_manager;
 
-3️⃣ Add MySQL Connector/Jar
+3  Add MySQL Connector/Jar
 Download from: MySQL Connector/Jar
 Extract and place the .jar file inside the lib/ folder.
 
-4️⃣ Configure DBConnection
+4  Configure DBConnection
 In DBConnection.java, update:
 String url = "jdbc:mysql://localhost:3306/task_manager";
 String username = " Your MySQL username";
 String password = "your_password_here";
 
-5️⃣ Compile & Run
+5 Compile & Run
 
 Windows
 
